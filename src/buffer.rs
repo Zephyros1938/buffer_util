@@ -5,6 +5,8 @@ use std::{
     io::{Error, ErrorKind, Read, Result, Write},
 };
 
+// Version 0.1.1: File structure updated, remaking the ByteBuffer crate to be more usable.
+
 pub struct ByteBufferAdv {
     data: Vec<u8>,
     wpos: usize,
