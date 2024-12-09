@@ -2,6 +2,12 @@
 name = "buffer_util"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0"
+license-file = "LICENSE"
+description = "A crate meant to expand and improve upon the ByteBuffer crate"
+repository = "https://github.com/Zephyros1938/buffer_util"
+readme = "README.md"
+keywords = ["buffer"]
 
 [dependencies]
 bytebuffer = "2.3.0"
